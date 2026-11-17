@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "id": "2026-11-thanksgiving-pushups",
+      "kind": "challenge",
+      "title": "Thanksgiving week push-ups",
+      "details": "Bank 1,000 push-ups before the turkey. Every set you log counts.",
+      "starts": "2026-11-16",
+      "ends": "2026-11-22",
+      "goal": { "movement": "pushUps", "reps": 1000 }
+    },
+    {
+      "id": "2026-11-21-saturday-session",
+      "kind": "club",
+      "title": "Saturday park session",
+      "details": "Group workout on the bars. All levels; bring water.",
+      "starts": "2026-11-21T09:00:00-05:00",
+      "ends": "2026-11-21T10:30:00-05:00",
+      "location": { "name": "City park pull-up bars" }
+    },
+    {
+      "id": "2026-12-workout-count",
+      "kind": "challenge",
+      "title": "12 workouts in December",
+      "details": "Three a week, every week. Any saved workout counts.",
+      "starts": "2026-12-01",
+      "ends": "2026-12-31",
+      "goal": { "workouts": 12 }
+    },
+    {
+      "id": "2026-12-12-pullup-throwdown",
+      "kind": "competition",
+      "title": "Winter pull-up throwdown",
+      "details": "Max strict pull-ups in one set. Divisions by weight class.",
+      "starts": "2026-12-12T10:00:00-05:00",
+      "ends": "2026-12-12T14:00:00-05:00",
+      "location": { "name": "Community rec center" },
+      "link": "https://example.com/throwdown-signup"
+    }
+  ]
+}
