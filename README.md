@@ -8,7 +8,7 @@ The event list the WorkoutTracker app downloads for its **Events** tab. Edit `ev
 
 | Field | Required | Notes |
 |---|---|---|
-| `id` | yes | Unique and stable. Don't reuse; the app uses it to remember completed challenges. |
+| `id` | yes | Unique and stable. The app uses it to tell events apart, so don't reuse one. |
 | `kind` | yes | `club`, `challenge` or `competition` |
 | `title` | yes | |
 | `details` | no | Free text. |
